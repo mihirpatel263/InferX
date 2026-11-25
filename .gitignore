@@ -1,0 +1,67 @@
+# ================================
+# Python
+# ================================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+*.log
+
+# Virtual environments
+venv/
+.env/
+.envrc/
+
+# ================================
+# Jupyter
+# ================================
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# ================================
+# Dataset (LARGE - DO NOT COMMIT)
+# ================================
+data/
+!data/.gitkeep
+
+# ================================
+# Models & Generated Artifacts
+# ================================
+# Keeping models so commenting
+# models/*.pth
+# models/*.onnx
+
+# ================================
+# Results / Plots
+# ================================
+# Keeping the results so commenting
+# results/
+# *.png
+# *.jpg
+# *.pdf
+
+# ================================
+# C++ / Build
+# ================================
+cpp/build/
+*.o
+*.out
+*.a
+*.so
+*.dylib
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# ================================
+# OS / Editor
+# ================================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

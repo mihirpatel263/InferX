@@ -1,0 +1,27 @@
+# Core ML (training + inference)
+torch==2.9.0
+torchvision==0.24.0
+torchaudio==2.9.0
+
+# ONNX export & runtime
+onnx==1.20.0
+onnxruntime==1.23.2
+onnxscript==0.5.7
+onnx-ir==0.1.13
+
+# Numerical & scientific
+numpy==2.2.6
+scipy==1.15.3
+
+# Data handling
+pandas==2.3.3
+
+# Evaluation metrics
+scikit-learn==1.7.2
+
+# Visualization
+matplotlib==3.10.7
+seaborn==0.13.2
+
+# Utilities
+tqdm==4.67.1
